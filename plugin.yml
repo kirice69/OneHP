@@ -1,0 +1,10 @@
+name: MoreHearts
+main: me.Ninstet.MoreHearts.MoreHearts
+version: 1.1
+description: >
+             MoreHearts plugin made by Ninstet.
+commands:
+  morehearts:
+    description: Main commands for the plugin.
+  mh:
+    description: Main commands for the plugin.
