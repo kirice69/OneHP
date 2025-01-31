@@ -1,0 +1,22 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package me.Ninstet.MoreHearts;
+
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+
+class MoreHearts$1 implements Runnable {
+    MoreHearts$1(MoreHearts var1) {
+        this.this$0 = var1;
+    }
+
+    public void run() {
+        for(Player player : Bukkit.getServer().getOnlinePlayers()) {
+            this.this$0.checkPerm(player, false, false);
+        }
+
+    }
+}
